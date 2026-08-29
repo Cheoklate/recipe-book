@@ -119,6 +119,15 @@ a {
   box-shadow: 0 4px 10px rgba(43, 35, 32, 0.12);
 }
 
+.recipe-card .card-thumb {
+  display: block;
+  width: calc(100% + 36px);
+  height: 140px;
+  object-fit: cover;
+  margin: -18px -18px 12px -18px;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
 .recipe-card h2 {
   margin: 0 0 8px;
   font-size: 1.1rem;
@@ -185,6 +194,21 @@ a {
   font-size: 0.8rem;
   padding: 3px 10px;
   border-radius: 999px;
+}
+
+.recipe-photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.recipe-photos img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
 }
 
 .servings-control {

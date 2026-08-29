@@ -67,10 +67,23 @@
     const baseServings = recipe.servings || 1;
     const servingUnit = recipe.servingUnit || "servings";
 
+    const imagesHtml =
+      recipe.images && recipe.images.length
+        ? `<div class="recipe-photos">${recipe.images
+            .map(
+              (src) =>
+                `<a href="${escapeHtml(src)}" target="_blank" rel="noopener"><img src="${escapeHtml(
+                  src
+                )}" alt="${escapeHtml(recipe.title)}" loading="lazy" /></a>`
+            )
+            .join("")}</div>`
+        : "";
+
     container.innerHTML = `
       <h1>${escapeHtml(recipe.title)}</h1>
       <div class="meta-row">${metaParts.join(" &middot; ")}</div>
       <div class="tags">${tagsHtml}</div>
+      ${imagesHtml}
 
       <div class="servings-control no-print">
         <button id="servings-minus" aria-label="Decrease servings">&minus;</button>

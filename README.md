@@ -15,6 +15,7 @@ Open `data/recipes.json` and append a new object to the array, following this sh
   "servingUnit": "servings",
   "prepTime": "10 min",
   "cookTime": "20 min",
+  "images": ["images/recipe-id-1.jpg", "images/recipe-id-2.jpg"],
   "ingredients": [
     { "amount": 1, "unit": "cup", "item": "flour" },
     { "amount": 0.5, "unit": "tsp", "item": "salt" },
@@ -34,6 +35,7 @@ Notes on fields:
 - `ingredients[].amount` should be a plain number (use decimals like `0.5` or `0.25`, not fractions) so the "scale servings" feature can do the math. Leave `amount` out (or use a non-numeric value) for "to taste" style ingredients.
 - `tags` populate the filter buttons on the homepage automatically — reuse existing tags where it makes sense.
 - `prepTime` and `cookTime` are optional — omit them if you don't have a good estimate.
+- `images` is optional — a list of paths to photos (put the files in `images/`, named `<recipe-id>-1.jpg` etc.). The first one doubles as the thumbnail on the homepage card.
 
 ### Multi-part recipes (marinade, sauce, etc.)
 

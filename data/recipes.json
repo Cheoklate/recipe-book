@@ -65,6 +65,10 @@
     "servingUnit": "servings",
     "prepTime": "25-30 min",
     "cookTime": "35-45 min",
+    "images": [
+      "images/creamy-garlic-mushroom-chicken-1.jpg",
+      "images/creamy-garlic-mushroom-chicken-2.jpg"
+    ],
     "ingredients": [
       { "group": "Marinade", "amount": 1, "unit": "tbsp", "item": "curry powder" },
       { "group": "Marinade", "amount": 1, "unit": "tbsp", "item": "paprika" },

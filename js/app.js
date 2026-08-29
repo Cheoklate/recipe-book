@@ -39,8 +39,13 @@
         if (r.prepTime) metaParts.push(`Prep ${escapeHtml(r.prepTime)}`);
         if (r.cookTime) metaParts.push(`Cook ${escapeHtml(r.cookTime)}`);
         if (r.servings) metaParts.push(`${r.servings} ${escapeHtml(r.servingUnit || "servings")}`);
+        const thumbHtml =
+          r.images && r.images.length
+            ? `<img class="card-thumb" src="${escapeHtml(r.images[0])}" alt="" loading="lazy" />`
+            : "";
         return `
           <a class="recipe-card" href="recipe.html?id=${encodeURIComponent(r.id)}">
+            ${thumbHtml}
             <h2>${escapeHtml(r.title)}</h2>
             <div class="meta">${metaParts.join(" &middot; ")}</div>
             <div class="tags">${tagsHtml}</div>
