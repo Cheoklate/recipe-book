@@ -102,5 +102,45 @@
       { "group": "Finish", "text": "Blast at 250°C for 10 minutes to caramelize — do this step last, right before serving." }
     ],
     "notes": "Serve with corn, broccoli/peas, mashed potato, and baked beans with onions. If making the rub ahead to store dry, leave out the brown sugar and add it fresh when using (\"no sugar for dry rib rub\"). Adapted from BigOven's \"Tony Roma's Ribs\" and Carolina Country's \"Tony Roma's Blue Ridge Smokies Sauce\" (from Todd Wilbur's Top Secret Restaurant Recipes), with handwritten family adjustments to the seasoning amounts, bake time/temp, and technique. One faint note in the margin about a convection-oven temperature (looked like ~140°C) was too hard to make out with confidence — worth checking the original photo."
+  },
+  {
+    "id": "beef-stroganoff",
+    "title": "Beef Stroganoff",
+    "tags": ["dinner", "beef", "comfort-food", "noodles"],
+    "servings": 4,
+    "servingUnit": "servings",
+    "prepTime": "20 min",
+    "cookTime": "1 hr 30 min",
+    "images": [
+      "images/beef-stroganoff-1.jpg",
+      "images/beef-stroganoff-2.jpg"
+    ],
+    "ingredients": [
+      { "amount": 1, "unit": "tbsp", "item": "vegetable oil" },
+      { "amount": 2, "unit": "lb", "item": "beef chuck roast, cut into batons (see instructions)" },
+      { "amount": "", "unit": "", "item": "salt and pepper, to taste" },
+      { "amount": 1, "unit": "tbsp", "item": "butter" },
+      { "amount": 0.5, "unit": "", "item": "onion, roughly sliced" },
+      { "amount": 8, "unit": "oz", "item": "mushrooms, thickly sliced" },
+      { "amount": 2, "unit": "", "item": "garlic cloves, minced" },
+      { "amount": 1.5, "unit": "tbsp", "item": "flour" },
+      { "amount": 0.5, "unit": "cup", "item": "dry white wine" },
+      { "amount": 2, "unit": "cup", "item": "beef (or veal) broth, divided" },
+      { "amount": 0.75, "unit": "cup", "item": "crème fraîche (½–1 cup), or sour cream" },
+      { "amount": 1, "unit": "tbsp", "item": "fresh chives, chopped" },
+      { "amount": "", "unit": "", "item": "wide egg noodles, buttered, for serving" },
+      { "amount": "", "unit": "", "item": "extra sour cream, for topping (optional)" }
+    ],
+    "instructions": [
+      { "group": "Prep the beef", "text": "Cut the beef chuck into steaks about ½–¾ inch thick, then cut those into ½-inch-wide strips (batons). The exact size doesn't matter much as long as the pieces are consistent. Season generously with salt and pepper." },
+      { "group": "Sear", "text": "Heat the vegetable oil in a large pan over high heat until shimmering and almost smoking. Add the beef — it's fine to crowd the pan for this cut; the liquid will release and boil off, then the meat will brown in its own juices. Cook until well browned, then transfer to a plate and reserve." },
+      { "group": "Build the sauce base", "text": "Reduce the heat to medium and add the butter to the same pan — don't wipe it out, you want those browned bits. Add the mushrooms and onion with a big pinch of salt, and sauté until nicely browned; the mushrooms and onions will release liquid that helps deglaze the pan." },
+      { "group": "Build the sauce base", "text": "Add the garlic and cook, stirring, for about 30 seconds. Add the flour, stir in, and cook for another minute or two." },
+      { "group": "Build the sauce base", "text": "Add the white wine and about half the beef broth. Bring to a simmer over medium heat, scraping up the browned bits from the bottom of the pan, until slightly thickened." },
+      { "group": "Braise", "text": "Return the beef to the pan along with the rest of the beef broth. Mix well and bring just to a bare simmer, then reduce heat to low, cover, and braise for about 1 hour, stirring roughly every 20 minutes, until the beef is tender. Add a splash more water or stock if it needs longer or looks dry." },
+      { "group": "Finish", "text": "Stir in a generous dollop of crème fraîche (or sour cream) — more for a saucier stroganoff, less for a drier one. Stir in the fresh chives, then taste and adjust salt and pepper." },
+      { "group": "Serve", "text": "Serve over buttered wide egg noodles, with a little extra sour cream on top if desired." }
+    ],
+    "notes": "Chef John recommends asking your butcher for a piece of chuck from a single muscle, to avoid pieces of membrane or big sections of fat running through it. Homemade crème fraîche is preferred over sour cream, since sour cream can curdle or separate when heated. This is Chef John's \"Americanized\" (non-traditional) take on stroganoff, with mushrooms and onions served over egg noodles. From Food Wishes: \"No Russian, this Beef Stroganoff Recipe\" (foodwishes.blogspot.com, March 2011) and its companion YouTube video."
   }
 ]
