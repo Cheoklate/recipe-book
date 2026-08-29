@@ -56,7 +56,7 @@
   }
 
   function renderRecipe(recipe) {
-    document.title = `${recipe.title} - My Recipe Book`;
+    document.title = `${recipe.title} - Cheoklate's Recipe Book`;
 
     const tagsHtml = recipe.tags.map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join("");
 

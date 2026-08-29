@@ -1,4 +1,4 @@
-# My Recipe Book
+# Cheoklate's Recipe Book
 
 A simple static recipe site, hosted on GitHub Pages. No build step, no server, no database — just HTML/CSS/JS reading from a JSON file.
 
