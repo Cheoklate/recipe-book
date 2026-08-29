@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Recipe Book</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>My Recipe Book</h1>
+  </header>
+
+  <main class="container">
+    <div class="controls">
+      <input
+        type="search"
+        id="search-input"
+        placeholder="Search by name or ingredient..."
+        aria-label="Search recipes"
+      />
+      <div id="tag-filters" class="tag-filters" aria-label="Filter by tag"></div>
+    </div>
+
+    <p id="empty-state" class="empty-state" hidden>No recipes match your search.</p>
+
+    <div id="recipe-grid" class="recipe-grid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Add recipes by editing <code>data/recipes.json</code>.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
