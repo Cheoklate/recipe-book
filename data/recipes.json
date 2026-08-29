@@ -59,5 +59,48 @@
       { "group": "Serve", "text": "For the fries, try a kewpie mayo and truffle mayo mix as a dipping sauce." }
     ],
     "notes": "Makes about 10 medium servings or 6 large ones."
+  },
+  {
+    "id": "tony-romas-ribs",
+    "title": "Tony Roma's Ribs",
+    "tags": ["dinner", "ribs", "pork", "bbq", "oven", "copycat"],
+    "servings": 2,
+    "servingUnit": "racks of ribs",
+    "prepTime": "20 min active + marinate overnight (at least 7 hrs)",
+    "cookTime": "about 3 hr 40 min (3 hr bake + basting + 10 min final blast)",
+    "images": [
+      "images/tony-romas-ribs-2.jpg",
+      "images/tony-romas-ribs-1.jpg"
+    ],
+    "ingredients": [
+      { "group": "Rib Rub", "amount": 1, "unit": "cup", "item": "brown sugar" },
+      { "group": "Rib Rub", "amount": 0.5, "unit": "cup", "item": "paprika" },
+      { "group": "Rib Rub", "amount": 0.5, "unit": "tbsp", "item": "black pepper, freshly ground" },
+      { "group": "Rib Rub", "amount": 2, "unit": "tbsp", "item": "kosher salt" },
+      { "group": "Rib Rub", "amount": 1, "unit": "tsp", "item": "chili powder (leave out if kids are eating)" },
+      { "group": "Rib Rub", "amount": 3, "unit": "tsp", "item": "onion powder (or 1/2 tbsp minced onion)" },
+      { "group": "Rib Rub", "amount": 1, "unit": "tsp", "item": "cayenne pepper" },
+      { "group": "Ribs", "amount": 2, "unit": "racks", "item": "baby back ribs or spare ribs" },
+      { "group": "Blue Ridge Smokies BBQ Sauce", "amount": 1, "unit": "cup", "item": "ketchup" },
+      { "group": "Blue Ridge Smokies BBQ Sauce", "amount": 1, "unit": "cup", "item": "red wine vinegar" },
+      { "group": "Blue Ridge Smokies BBQ Sauce", "amount": 0.5, "unit": "cup", "item": "brown sugar" },
+      { "group": "Blue Ridge Smokies BBQ Sauce", "amount": 0.25, "unit": "cup", "item": "molasses (or golden syrup)" },
+      { "group": "Blue Ridge Smokies BBQ Sauce", "amount": 0.5, "unit": "tsp", "item": "salt" },
+      { "group": "Blue Ridge Smokies BBQ Sauce", "amount": 0.25, "unit": "tsp", "item": "black pepper, rounded" },
+      { "group": "Blue Ridge Smokies BBQ Sauce", "amount": 0.25, "unit": "tsp", "item": "garlic powder (or 2 cloves minced garlic)" },
+      { "group": "Blue Ridge Smokies BBQ Sauce", "amount": 0.5, "unit": "tsp", "item": "onion powder" }
+    ],
+    "instructions": [
+      { "group": "Marinate the ribs", "text": "Combine the rub ingredients in a bowl and mix well." },
+      { "group": "Marinate the ribs", "text": "The night before the ribs are to be served, coat both sides of the ribs well with the rub and place them in a zip-lock bag in the refrigerator." },
+      { "group": "Marinate the ribs", "text": "Remove the ribs from the fridge at least 7 hours before serving, and coat well with the rub once again." },
+      { "group": "Make the BBQ sauce", "text": "Combine all sauce ingredients in a medium saucepan over high heat and whisk until smooth." },
+      { "group": "Make the BBQ sauce", "text": "Bring the sauce to a boil, then reduce heat and simmer uncovered for 30-40 minutes, or until the sauce has thickened. (A store-bought Korean BBQ sauce, e.g. BiBiGo, works as a shortcut instead.)" },
+      { "group": "Bake the ribs", "text": "Preheat the oven to 120°C (225°F is about 108°C — if the ribs are very thick, cook at 150°C instead). Place the ribs fat side up in a shallow, foil-lined baking pan, without a rack, with about 1mm of water in the bottom of the pan." },
+      { "group": "Bake the ribs", "text": "Bake for 3 hours, topping up the water partway through if the ribs are thick." },
+      { "group": "Bake the ribs", "text": "After 3 hours, spread BBQ sauce on both sides of the ribs and continue to bake. Add more sauce after another 30 minutes." },
+      { "group": "Finish", "text": "Blast at 250°C for 10 minutes to caramelize — do this step last, right before serving." }
+    ],
+    "notes": "Serve with corn, broccoli/peas, mashed potato, and baked beans with onions. If making the rub ahead to store dry, leave out the brown sugar and add it fresh when using (\"no sugar for dry rib rub\"). Adapted from BigOven's \"Tony Roma's Ribs\" and Carolina Country's \"Tony Roma's Blue Ridge Smokies Sauce\" (from Todd Wilbur's Top Secret Restaurant Recipes), with handwritten family adjustments to the seasoning amounts, bake time/temp, and technique. One faint note in the margin about a convection-oven temperature (looked like ~140°C) was too hard to make out with confidence — worth checking the original photo."
   }
 ]
