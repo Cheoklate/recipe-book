@@ -38,6 +38,23 @@
     return params.get("id");
   }
 
+  // Groups consecutive items that share a "group" field into
+  // { group, items } buckets, preserving order. Items without a group
+  // are bucketed under group: null so ungrouped recipes render flat.
+  function groupConsecutive(items) {
+    const buckets = [];
+    for (const item of items) {
+      const group = item.group || null;
+      const last = buckets[buckets.length - 1];
+      if (last && last.group === group) {
+        last.items.push(item);
+      } else {
+        buckets.push({ group, items: [item] });
+      }
+    }
+    return buckets;
+  }
+
   function renderRecipe(recipe) {
     document.title = `${recipe.title} - My Recipe Book`;
 
@@ -66,13 +83,11 @@
       <div class="recipe-columns">
         <section>
           <h2>Ingredients</h2>
-          <ul id="ingredients-list"></ul>
+          <div id="ingredients-list"></div>
         </section>
         <section>
           <h2>Instructions</h2>
-          <ol id="instructions-list">
-            ${recipe.instructions.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}
-          </ol>
+          <div id="instructions-list"></div>
           ${
             recipe.notes
               ? `<div class="notes-box"><strong>Notes:</strong> ${escapeHtml(recipe.notes)}</div>`
@@ -85,17 +100,39 @@
     let currentServings = baseServings;
     const servingsValueEl = document.getElementById("servings-value");
     const ingredientsListEl = document.getElementById("ingredients-list");
+    const instructionsListEl = document.getElementById("instructions-list");
 
     function renderIngredients() {
       const multiplier = currentServings / baseServings;
-      ingredientsListEl.innerHTML = recipe.ingredients
-        .map((ing) => {
-          const scaledAmount =
-            typeof ing.amount === "number" ? formatAmount(ing.amount * multiplier) : "";
-          const amountText = [scaledAmount, ing.unit].filter(Boolean).join(" ");
-          return `<li><span class="amount">${escapeHtml(amountText)}</span><span>${escapeHtml(
-            ing.item
-          )}</span></li>`;
+      const buckets = groupConsecutive(recipe.ingredients);
+      ingredientsListEl.innerHTML = buckets
+        .map(({ group, items }) => {
+          const heading = group ? `<h3 class="group-heading">${escapeHtml(group)}</h3>` : "";
+          const li = items
+            .map((ing) => {
+              const scaledAmount =
+                typeof ing.amount === "number" ? formatAmount(ing.amount * multiplier) : "";
+              const amountText = [scaledAmount, ing.unit].filter(Boolean).join(" ");
+              return `<li><span class="amount">${escapeHtml(amountText)}</span><span>${escapeHtml(
+                ing.item
+              )}</span></li>`;
+            })
+            .join("");
+          return `${heading}<ul class="ingredient-group">${li}</ul>`;
+        })
+        .join("");
+    }
+
+    function renderInstructions() {
+      const normalized = recipe.instructions.map((step) =>
+        typeof step === "string" ? { group: null, text: step } : { group: step.group || null, text: step.text }
+      );
+      const buckets = groupConsecutive(normalized);
+      instructionsListEl.innerHTML = buckets
+        .map(({ group, items }) => {
+          const heading = group ? `<h3 class="group-heading">${escapeHtml(group)}</h3>` : "";
+          const li = items.map((step) => `<li>${escapeHtml(step.text)}</li>`).join("");
+          return `${heading}<ol class="instruction-group">${li}</ol>`;
         })
         .join("");
     }
@@ -119,6 +156,7 @@
     });
 
     renderIngredients();
+    renderInstructions();
   }
 
   const id = getIdFromQuery();

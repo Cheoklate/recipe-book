@@ -33,6 +33,25 @@ Notes on fields:
 - `id` must be unique and URL-safe (letters, numbers, hyphens) — it's used in the recipe's URL.
 - `ingredients[].amount` should be a plain number (use decimals like `0.5` or `0.25`, not fractions) so the "scale servings" feature can do the math. Leave `amount` out (or use a non-numeric value) for "to taste" style ingredients.
 - `tags` populate the filter buttons on the homepage automatically — reuse existing tags where it makes sense.
+- `prepTime` and `cookTime` are optional — omit them if you don't have a good estimate.
+
+### Multi-part recipes (marinade, sauce, etc.)
+
+For a recipe with distinct components, add an optional `"group"` field to ingredient/instruction entries. Consecutive entries with the same group are rendered together under a heading; entries with no `group` render flat, so this is fully optional. Instructions can also be given as `{ "group": "...", "text": "..." }` objects instead of plain strings:
+
+```json
+{
+  "ingredients": [
+    { "group": "Marinade", "amount": 1, "unit": "tbsp", "item": "soy sauce" },
+    { "group": "Marinade", "amount": 1, "unit": "tsp", "item": "sugar" },
+    { "group": "Main", "amount": 500, "unit": "g", "item": "chicken thigh" }
+  ],
+  "instructions": [
+    { "group": "Marinate", "text": "Mix the marinade and coat the chicken." },
+    { "group": "Cook", "text": "Sear the chicken over medium heat." }
+  ]
+}
+```
 
 Commit and push the change; GitHub Pages will pick it up automatically after the push.
 

@@ -242,32 +242,43 @@ a {
   margin-bottom: 12px;
 }
 
-#ingredients-list {
+.ingredient-group {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 0 18px;
 }
 
-#ingredients-list li {
+.ingredient-group li {
   padding: 6px 0;
   border-bottom: 1px dashed var(--color-border);
   display: flex;
   gap: 6px;
 }
 
-#ingredients-list .amount {
+.ingredient-group .amount {
   font-weight: 600;
   min-width: 70px;
   color: var(--color-accent);
 }
 
-#instructions-list {
+.instruction-group {
   padding-left: 22px;
-  margin: 0;
+  margin: 0 0 18px;
 }
 
-#instructions-list li {
+.instruction-group li {
   padding: 6px 0;
+}
+
+.group-heading {
+  font-size: 0.95rem;
+  color: var(--color-accent);
+  margin: 0 0 8px;
+}
+
+.ingredient-group:first-of-type,
+.instruction-group:first-of-type {
+  margin-top: 0;
 }
 
 .notes-box {
