@@ -55,6 +55,173 @@
     return buckets;
   }
 
+  // Swipeable photo lightbox — ported from the Grandma's 80th Birthday photo
+  // album project (MM80). The track holds 3 slides (prev/current/next) side
+  // by side; dragging moves the track 1:1 with the pointer so the
+  // neighboring photo peeks in as you go, like Instagram. Releasing past a
+  // distance threshold finishes the slide into place, otherwise it springs
+  // back to the current photo.
+  const lightbox = document.getElementById("lightbox");
+  const lightboxViewport = lightbox.querySelector(".lightbox-viewport");
+  const lightboxTrack = lightbox.querySelector(".lightbox-track");
+  const prevSlide = lightbox.querySelector('[data-slide="prev"]');
+  const currentSlide = lightbox.querySelector('[data-slide="current"]');
+  const nextSlide = lightbox.querySelector('[data-slide="next"]');
+  const lightboxCloseBtn = lightbox.querySelector(".lightbox-close");
+  const lightboxPrevBtn = lightbox.querySelector(".lightbox-prev");
+  const lightboxNextBtn = lightbox.querySelector(".lightbox-next");
+
+  let lightboxPhotos = [];
+  let currentIndex = 0;
+  let viewportWidth = 0;
+  let dragStartX = null;
+  let dragOffset = 0;
+  let activePointerId = null;
+  let isAnimating = false;
+
+  // No wrap-around: past either end there's simply no photo to show.
+  function photoAt(offset) {
+    const index = currentIndex + offset;
+    if (index < 0 || index >= lightboxPhotos.length) return null;
+    return lightboxPhotos[index];
+  }
+
+  function setSlide(imgEl, src) {
+    imgEl.src = src || "";
+  }
+
+  function updateSlides() {
+    setSlide(prevSlide, photoAt(-1));
+    setSlide(currentSlide, photoAt(0));
+    setSlide(nextSlide, photoAt(1));
+    lightboxPrevBtn.disabled = currentIndex === 0;
+    lightboxNextBtn.disabled = currentIndex === lightboxPhotos.length - 1;
+  }
+
+  function setTrackPosition(offsetPx, withTransition) {
+    lightboxTrack.style.transition = withTransition ? "transform 0.25s ease" : "none";
+    lightboxTrack.style.transform = `translateX(${-viewportWidth + offsetPx}px)`;
+  }
+
+  function openLightbox(photos, index) {
+    lightboxPhotos = photos;
+    currentIndex = index;
+    lightbox.hidden = false;
+    document.body.style.overflow = "hidden";
+    viewportWidth = lightboxViewport.getBoundingClientRect().width;
+    updateSlides();
+    setTrackPosition(0, false);
+  }
+
+  function closeLightbox() {
+    lightbox.hidden = true;
+    document.body.style.overflow = "";
+  }
+
+  // direction: 1 to advance to the next photo, -1 for the previous photo, or
+  // 0 to just spring back to the current one. Springs back (rather than
+  // moving) if direction points past either end - no wrap-around.
+  function settleTo(direction) {
+    if (isAnimating) return;
+
+    const targetIndex = currentIndex + direction;
+    const canMove = direction !== 0 && targetIndex >= 0 && targetIndex < lightboxPhotos.length;
+
+    if (!canMove) {
+      setTrackPosition(0, true);
+      return;
+    }
+
+    isAnimating = true;
+    setTrackPosition(-direction * viewportWidth, true);
+    lightboxTrack.addEventListener(
+      "transitionend",
+      () => {
+        currentIndex = targetIndex;
+        updateSlides();
+        setTrackPosition(0, false);
+        isAnimating = false;
+      },
+      { once: true }
+    );
+  }
+
+  function showNext() {
+    settleTo(1);
+  }
+
+  function showPrev() {
+    settleTo(-1);
+  }
+
+  lightboxCloseBtn.addEventListener("click", closeLightbox);
+  lightboxNextBtn.addEventListener("click", showNext);
+  lightboxPrevBtn.addEventListener("click", showPrev);
+
+  lightbox.addEventListener("click", (event) => {
+    if (event.target === lightbox) closeLightbox();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (lightbox.hidden) return;
+    if (event.key === "Escape") closeLightbox();
+    if (event.key === "ArrowRight") showNext();
+    if (event.key === "ArrowLeft") showPrev();
+  });
+
+  window.addEventListener("resize", () => {
+    if (lightbox.hidden) return;
+    viewportWidth = lightboxViewport.getBoundingClientRect().width;
+    setTrackPosition(dragStartX === null ? 0 : dragOffset, false);
+  });
+
+  // Drag-to-swipe (touch, mouse, and pen alike via Pointer Events)
+  const DRAG_THRESHOLD_RATIO = 0.2;
+
+  lightboxViewport.addEventListener("pointerdown", (event) => {
+    if (isAnimating) return;
+    activePointerId = event.pointerId;
+    dragStartX = event.clientX;
+    dragOffset = 0;
+    lightboxViewport.setPointerCapture(activePointerId);
+  });
+
+  // At either end, dragging toward the missing photo gets heavy resistance
+  // instead of moving 1:1, so it reads as "hit the end" rather than
+  // dragging into blank space.
+  function withEdgeResistance(offset) {
+    const atStart = currentIndex === 0;
+    const atEnd = currentIndex === lightboxPhotos.length - 1;
+    if ((offset > 0 && atStart) || (offset < 0 && atEnd)) return offset / 4;
+    return offset;
+  }
+
+  lightboxViewport.addEventListener("pointermove", (event) => {
+    if (dragStartX === null || event.pointerId !== activePointerId) return;
+    dragOffset = event.clientX - dragStartX;
+    setTrackPosition(withEdgeResistance(dragOffset), false);
+  });
+
+  function endDrag(event) {
+    if (dragStartX === null || event.pointerId !== activePointerId) return;
+
+    const threshold = viewportWidth * DRAG_THRESHOLD_RATIO;
+    if (dragOffset <= -threshold) {
+      settleTo(1);
+    } else if (dragOffset >= threshold) {
+      settleTo(-1);
+    } else {
+      settleTo(0);
+    }
+
+    dragStartX = null;
+    dragOffset = 0;
+    activePointerId = null;
+  }
+
+  lightboxViewport.addEventListener("pointerup", endDrag);
+  lightboxViewport.addEventListener("pointercancel", endDrag);
+
   function renderRecipe(recipe) {
     document.title = `${recipe.title} - Cheoklate's Recipe Book`;
 
@@ -71,10 +238,10 @@
       recipe.images && recipe.images.length
         ? `<div class="recipe-photos">${recipe.images
             .map(
-              (src) =>
-                `<a href="${escapeHtml(src)}" target="_blank" rel="noopener"><img src="${escapeHtml(
+              (src, i) =>
+                `<button type="button" class="photo-thumb" data-index="${i}"><img src="${escapeHtml(
                   src
-                )}" alt="${escapeHtml(recipe.title)}" loading="lazy" /></a>`
+                )}" alt="${escapeHtml(recipe.title)}" loading="lazy" /></button>`
             )
             .join("")}</div>`
         : "";
@@ -166,6 +333,10 @@
 
     document.getElementById("print-btn").addEventListener("click", () => {
       window.print();
+    });
+
+    container.querySelectorAll(".photo-thumb").forEach((btn) => {
+      btn.addEventListener("click", () => openLightbox(recipe.images, Number(btn.dataset.index)));
     });
 
     renderIngredients();
