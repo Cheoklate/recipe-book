@@ -63,6 +63,8 @@
     "tags": ["dinner", "chicken", "creamy", "mushroom", "comfort-food"],
     "servings": 10,
     "servingUnit": "servings",
+    "prepTime": "25-30 min",
+    "cookTime": "35-45 min",
     "ingredients": [
       { "group": "Marinade", "amount": 1, "unit": "tbsp", "item": "curry powder" },
       { "group": "Marinade", "amount": 1, "unit": "tbsp", "item": "paprika" },
