@@ -86,8 +86,21 @@
     return lightboxPhotos[index];
   }
 
+  // Past either end of the photo list there's no neighboring photo, so
+  // src would otherwise be "" — an empty img src still renders the
+  // browser's broken-image icon/border, which peeks through as a stray
+  // line during the edge-resistance drag. Use visibility (not display or
+  // the hidden attribute) so the slide stays invisible but still holds
+  // its 33.3333% share of the track's width — collapsing it would throw
+  // off the other two slides' positions.
   function setSlide(imgEl, src) {
-    imgEl.src = src || "";
+    if (src) {
+      imgEl.style.visibility = "";
+      imgEl.src = src;
+    } else {
+      imgEl.style.visibility = "hidden";
+      imgEl.removeAttribute("src");
+    }
   }
 
   function updateSlides() {
