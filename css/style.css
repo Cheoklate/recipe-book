@@ -582,7 +582,9 @@ a {
   .no-print,
   .site-footer,
   .servings-control button,
-  .lightbox {
+  .lightbox,
+  .filter-toggle,
+  .sidebar {
     display: none !important;
   }
 
