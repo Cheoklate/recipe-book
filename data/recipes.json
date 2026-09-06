@@ -179,5 +179,43 @@
       { "group": "Chill & serve", "text": "Sift cocoa powder generously over the top just before serving." }
     ],
     "notes": "Base recipe is Auntie Siao Siang's recipe as adapted by Michele Anne Lim (28 Oct 1992) — no egg whites/meringue, just yolks. Technique details (long beat time for yolks & sugar, mixing the mascarpone in gently rather than whipping it, quick dip time for the sponge fingers) are drawn from RecipeTinEats' \"Easy Tiramisu\" and an accompanying video, adapted to skip the egg-white meringue step entirely and to avoid overbeating once the mascarpone is added."
+  },
+  {
+    "id": "cheesing-the-ladder-soup",
+    "title": "Cheesing The Ladder",
+    "tags": ["soup", "dinner", "cheese", "broccoli", "comfort-food"],
+    "servings": 6,
+    "servingUnit": "servings",
+    "prepTime": "20 min",
+    "cookTime": "45 min",
+    "images": [
+      "images/cheesing-the-ladder-1.jpg"
+    ],
+    "ingredients": [
+      { "amount": 1.5, "unit": "lb", "item": "broccoli (700g), separated into florets and stems" },
+      { "amount": 2, "unit": "tbsp", "item": "vegetable oil (30ml)" },
+      { "amount": "", "unit": "", "item": "kosher salt and freshly ground black pepper, to taste" },
+      { "amount": 3, "unit": "tbsp", "item": "unsalted butter" },
+      { "amount": 1, "unit": "", "item": "medium onion, sliced (about 6 oz/170g)" },
+      { "amount": 1, "unit": "", "item": "medium carrot, peeled and finely diced (about 4 oz/120g)" },
+      { "amount": 3, "unit": "", "item": "medium garlic cloves, thinly sliced" },
+      { "amount": 2, "unit": "cup", "item": "water, or low-sodium chicken stock (475ml)" },
+      { "amount": 3, "unit": "cup", "item": "whole milk (700ml)" },
+      { "amount": 1, "unit": "", "item": "small russet potato, peeled and sliced (about 4 oz/120g)" },
+      { "amount": 12, "unit": "oz", "item": "sharp cheddar cheese, grated (340g)" },
+      { "amount": 8, "unit": "oz", "item": "deli-style American cheese, diced (240g)" },
+      { "amount": 1, "unit": "tsp", "item": "dried mustard powder (3g)" },
+      { "amount": "", "unit": "", "item": "hot sauce (e.g. Frank's RedHot), a dash" }
+    ],
+    "instructions": [
+      { "group": "Prep", "text": "Cut the broccoli florets into bite-sized pieces and set aside. Roughly chop the stems and reserve separately." },
+      { "group": "Char the broccoli", "text": "Heat the oil in a large Dutch oven over high heat until shimmering. Add the broccoli florets and cook without moving until charred on the bottom, about 1 minute. Stir, season with salt and pepper, and continue cooking, stirring occasionally, until tender and charred on several surfaces, about 1 minute longer. Transfer to a rimmed baking sheet to cool." },
+      { "group": "Build the soup base", "text": "Return the Dutch oven to medium heat and add the butter, onion, carrot, and broccoli stems. Season with salt and pepper and cook, stirring frequently, until tender but not browned, about 5 minutes, lowering the heat if necessary. Add the garlic and cook, stirring, until fragrant, about 30 seconds." },
+      { "group": "Simmer", "text": "Add the water (or chicken stock), milk, and potato, and bring to a boil over high heat. Reduce to a bare simmer and cook, stirring occasionally, until the broccoli stems and potato are completely tender, about 30 minutes." },
+      { "group": "Blend in the cheese", "text": "Toss both cheeses together with the mustard powder in a large bowl. Using an immersion blender (or working in batches with a countertop blender), blend the soup, adding the cheese mixture a handful at a time until completely smooth." },
+      { "group": "Finish & serve", "text": "Stir in the hot sauce and season to taste with salt and pepper." },
+      { "group": "Finish & serve", "text": "Stir in the reserved broccoli florets and pulse with the blender a few more times, until a few pieces are broken down but most bite-sized pieces still remain. Serve immediately." }
+    ],
+    "notes": "Broccoli cheddar soup, pulled from a PDF titled \"Cheesing The Ladder.\" Servings are an estimate — the yield wasn't specified in the source. Pairs well with garlic bread and pan-seared chicken or pork on the side."
   }
 ]
