@@ -142,5 +142,42 @@
       { "group": "Serve", "text": "Serve over buttered wide egg noodles, with a little extra sour cream on top if desired." }
     ],
     "notes": "Chef John recommends asking your butcher for a piece of chuck from a single muscle, to avoid pieces of membrane or big sections of fat running through it. Homemade crème fraîche is preferred over sour cream, since sour cream can curdle or separate when heated. This is Chef John's \"Americanized\" (non-traditional) take on stroganoff, with mushrooms and onions served over egg noodles. From Food Wishes: \"No Russian, this Beef Stroganoff Recipe\" (foodwishes.blogspot.com, March 2011) and its companion YouTube video."
+  },
+  {
+    "id": "tiramisu",
+    "title": "Tiramisu",
+    "tags": ["dessert", "no-bake", "italian", "coffee", "make-ahead"],
+    "servings": 8,
+    "servingUnit": "servings",
+    "prepTime": "30 min active",
+    "cookTime": "overnight to set (or 1 hr freeze + 1 hr fridge if rushed)",
+    "images": [
+      "images/tiramisu-1.jpg",
+      "images/tiramisu-2.jpg"
+    ],
+    "ingredients": [
+      { "group": "Coffee Soak", "amount": 1, "unit": "cup", "item": "hot water" },
+      { "group": "Coffee Soak", "amount": 2, "unit": "tsp", "item": "instant coffee granules" },
+      { "group": "Coffee Soak", "amount": 2, "unit": "tsp", "item": "caster sugar" },
+      { "group": "Coffee Soak", "amount": 3, "unit": "tbsp", "item": "Amaretto (2-4 tbsp / 30-60ml)" },
+      { "group": "Mascarpone Cream", "amount": 6, "unit": "", "item": "egg yolks (reserve the whites for something else, like a pavlova or pandan chiffon cake)" },
+      { "group": "Mascarpone Cream", "amount": 100, "unit": "g", "item": "caster sugar (⅓ cup)" },
+      { "group": "Mascarpone Cream", "amount": 500, "unit": "g", "item": "mascarpone, drained of any excess liquid" },
+      { "group": "Assembly", "amount": "", "unit": "", "item": "butter, for greasing the dish" },
+      { "group": "Assembly", "amount": 25, "unit": "", "item": "sponge finger biscuits (savoiardi/ladyfingers)" },
+      { "group": "Assembly", "amount": "", "unit": "", "item": "cocoa powder, for dusting" }
+    ],
+    "instructions": [
+      { "group": "Make the coffee soak", "text": "Stir the instant coffee and sugar into the hot water until dissolved. Stir in the Amaretto and set aside to cool to room temperature." },
+      { "group": "Make the mascarpone cream", "text": "Beat the egg yolks and sugar with an electric mixer on medium-high speed until pale, thick, and roughly doubled in volume — this takes about 8-10 minutes. No egg whites are used in this recipe, so skip whipping/folding through any meringue." },
+      { "group": "Make the mascarpone cream", "text": "Add the drained mascarpone and mix in on low speed just until smooth and combined. Don't overbeat once the mascarpone goes in — over-mixing at this stage can make the cream grainy or cause it to split." },
+      { "group": "Assemble", "text": "Grease a serving dish (roughly 8-inch/20cm square, or similar) with butter." },
+      { "group": "Assemble", "text": "Quickly dip each sponge finger into the cooled coffee mixture — a second or two per side is enough, you don't want them turning soggy — and arrange in a single layer in the dish." },
+      { "group": "Assemble", "text": "Spread half the mascarpone cream evenly over the sponge fingers." },
+      { "group": "Assemble", "text": "Repeat with a second layer of dipped sponge fingers, then spread the remaining mascarpone cream on top." },
+      { "group": "Chill & serve", "text": "Cover and refrigerate overnight for the best texture (or, if short on time, freeze for at least 1 hour then defrost in the fridge for 1 hour — results won't be quite as good as an overnight set)." },
+      { "group": "Chill & serve", "text": "Sift cocoa powder generously over the top just before serving." }
+    ],
+    "notes": "Base recipe is Auntie Siao Siang's recipe as adapted by Michele Anne Lim (28 Oct 1992) — no egg whites/meringue, just yolks. Technique details (long beat time for yolks & sugar, mixing the mascarpone in gently rather than whipping it, quick dip time for the sponge fingers) are drawn from RecipeTinEats' \"Easy Tiramisu\" and an accompanying video, adapted to skip the egg-white meringue step entirely and to avoid overbeating once the mascarpone is added."
   }
 ]
