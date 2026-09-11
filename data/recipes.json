@@ -224,6 +224,9 @@
     "tags": ["dinner", "chicken", "singaporean", "malaysian", "hawker", "western-food"],
     "servings": 3,
     "servingUnit": "pax",
+    "images": [
+      "images/chicken-chop-1.jpg"
+    ],
     "ingredients": [
       { "group": "Marinated chicken", "amount": 3, "unit": "", "item": "boneless chicken leg, butterflied (about 220g/7.76oz each)" },
       { "group": "Marinated chicken", "amount": 3, "unit": "tbsp", "item": "light soy sauce" },
