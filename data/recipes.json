@@ -217,5 +217,37 @@
       { "group": "Finish & serve", "text": "Stir in the reserved broccoli florets and pulse with the blender a few more times, until a few pieces are broken down but most bite-sized pieces still remain. Serve immediately." }
     ],
     "notes": "Broccoli cheddar soup, pulled from a PDF titled \"Cheesing The Ladder.\" Servings are an estimate — the yield wasn't specified in the source. Pairs well with garlic bread and pan-seared chicken or pork on the side."
+  },
+  {
+    "id": "chicken-chop",
+    "title": "Singapore / Malaysian Style Chicken Chop",
+    "tags": ["dinner", "chicken", "singaporean", "malaysian", "hawker", "western-food"],
+    "servings": 3,
+    "servingUnit": "pax",
+    "ingredients": [
+      { "group": "Marinated chicken", "amount": 3, "unit": "", "item": "boneless chicken leg, butterflied (about 220g/7.76oz each)" },
+      { "group": "Marinated chicken", "amount": 3, "unit": "tbsp", "item": "light soy sauce" },
+      { "group": "Marinated chicken", "amount": 2, "unit": "tbsp", "item": "oyster sauce" },
+      { "group": "Marinated chicken", "amount": 0.5, "unit": "tsp", "item": "sugar" },
+      { "group": "Marinated chicken", "amount": 2, "unit": "cloves", "item": "garlic, crushed" },
+      { "group": "Marinated chicken", "amount": "", "unit": "", "item": "white pepper, a few dashes" },
+      { "group": "Gravy", "amount": 20, "unit": "g", "item": "unsalted butter (0.7 oz)" },
+      { "group": "Gravy", "amount": 1, "unit": "tsp", "item": "ground black pepper" },
+      { "group": "Gravy", "amount": 0.33, "unit": "cube", "item": "chicken stock cube (1/3 of a cube)" },
+      { "group": "Gravy", "amount": 8, "unit": "g", "item": "all-purpose flour (about 0.5 tbsp)" },
+      { "group": "Gravy", "amount": 200, "unit": "ml", "item": "water (6.76 fl oz)" },
+      { "group": "Gravy", "amount": 0.5, "unit": "tsp", "item": "dark soy sauce" },
+      { "group": "To serve", "amount": "", "unit": "", "item": "french fries, some" },
+      { "group": "To serve", "amount": "", "unit": "", "item": "baked beans, some" },
+      { "group": "To serve", "amount": "", "unit": "", "item": "mixed vegetables, some" },
+      { "group": "To serve", "amount": "", "unit": "", "item": "dinner rolls or bread, some" }
+    ],
+    "instructions": [
+      { "group": "Marinate", "text": "Combine the light soy sauce, oyster sauce, sugar, crushed garlic, and white pepper. Coat the butterflied chicken legs in the marinade." },
+      { "group": "Cook the chicken", "text": "Pan-fry the marinated chicken over medium heat until golden brown and cooked through on both sides. Set aside." },
+      { "group": "Make the gravy", "text": "In the same pan, melt the butter and stir in the black pepper and chicken stock cube. Add the flour and stir to form a paste, then gradually whisk in the water and dark soy sauce. Simmer until thickened into a gravy." },
+      { "group": "Serve", "text": "Plate the chicken chop, pour the gravy over it, and serve with french fries, baked beans, mixed vegetables, and dinner rolls or bread." }
+    ],
+    "notes": "From Spice N' Pans (YouTube). Source: https://www.youtube.com/watch?v=kHc_DgWGQDE"
   }
 ]
