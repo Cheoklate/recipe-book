@@ -300,6 +300,49 @@
     "notes": "From Souped Up Recipes (YouTube), \"BETTER THAN TAKEOUT - Mapo Tofu Recipe\": https://youtu.be/g9DNcb7cs2s. An authentic mapo tofu should hit 8 characteristics: 麻辣鲜香嫩滑翠整 — numbing, spicy, umami, fragrant, tender, smooth, green (scallion/garlic sprout garnish), and whole (no broken tofu)."
   },
   {
+    "id": "haemul-pajeon",
+    "title": "Haemul-pajeon (Korean Seafood Scallion Pancake)",
+    "tags": ["korean", "appetizer", "seafood", "pancake", "side-dish"],
+    "servings": 4,
+    "servingUnit": "servings",
+    "prepTime": "20 min",
+    "cookTime": "10 min",
+    "images": [
+      "images/haemul-pajeon-1.jpg"
+    ],
+    "ingredients": [
+      { "group": "Dipping Sauce", "amount": 2, "unit": "tbsp", "item": "dark soy sauce (jin-ganjang)" },
+      { "group": "Dipping Sauce", "amount": 1, "unit": "tbsp", "item": "apple cider vinegar" },
+      { "group": "Dipping Sauce", "amount": 0.5, "unit": "tsp", "item": "gochugaru (Korean hot pepper flakes)" },
+      { "group": "Dipping Sauce", "amount": 1, "unit": "", "item": "green onion, chopped" },
+      { "group": "Dipping Sauce", "amount": 1, "unit": "tsp", "item": "toasted sesame seeds" },
+      { "group": "Batter", "amount": 12, "unit": "", "item": "green onions, trimmed to the length of your pan" },
+      { "group": "Batter", "amount": 0.5, "unit": "cup", "item": "all-purpose flour" },
+      { "group": "Batter", "amount": 1, "unit": "tbsp", "item": "potato starch" },
+      { "group": "Batter", "amount": 0.5, "unit": "tsp", "item": "salt" },
+      { "group": "Batter", "amount": 0.75, "unit": "cup", "item": "anchovy kelp stock (or vegetable stock/water)" },
+      { "group": "Batter", "amount": 1, "unit": "", "item": "egg, beaten" },
+      { "group": "Batter", "amount": 1, "unit": "", "item": "fresh red chili pepper, sliced" },
+      { "group": "Seafood", "amount": 0.5, "unit": "cup", "item": "mixed seafood (shrimp, squid, clams), chopped (about 4oz/115g total)" },
+      { "group": "Seafood", "amount": "", "unit": "", "item": "salt, a pinch" },
+      { "group": "Seafood", "amount": "", "unit": "", "item": "ground black pepper, a pinch" },
+      { "group": "For frying", "amount": 0.25, "unit": "cup", "item": "vegetable oil, divided" }
+    ],
+    "instructions": [
+      { "group": "Make the dipping sauce", "text": "Combine the dark soy sauce, apple cider vinegar, gochugaru, chopped green onion, and toasted sesame seeds in a small bowl. No need to stir until serving — just set aside." },
+      { "group": "Prep the seafood", "text": "Combine the chopped shrimp, squid, and clams in a bowl (about 1/2 cup / 4oz total). Season with a pinch of salt and black pepper and mix." },
+      { "group": "Make the batter", "text": "Whisk together the flour, potato starch (this is what makes the pancake a little crunchy), and salt in a bowl. Add the stock and mix until very runny, almost like water — a thin batter is key, otherwise the pancake will clump together and turn out dense instead of crispy." },
+      { "group": "Cook the pancake", "text": "Heat a large pan over medium-high heat until hot, then reduce to medium heat. Add about half the oil (2 tbsp) and swirl to coat." },
+      { "group": "Cook the pancake", "text": "Dip the green onions in the batter to coat, then lay them side by side in the pan, flipping every other one so they alternate direction and cover the pan evenly. Pour any remaining batter over the top and into the gaps." },
+      { "group": "Cook the pancake", "text": "Scatter the seasoned seafood evenly over the green onions, then the sliced red pepper, then pour the beaten egg over the top." },
+      { "group": "Cook the pancake", "text": "Cook over medium heat for 6 minutes, occasionally poking gaps between the green onions so the batter spreads and cooks evenly, until the bottom is golden and crisp but not burnt." },
+      { "group": "Cook the pancake", "text": "Flip the pancake. Drizzle the remaining oil around the edge and tilt the pan so the oil runs underneath — this helps the bottom turn crispy. Cook for another 3 minutes." },
+      { "group": "Cook the pancake", "text": "Flip once more, raise the heat to medium-high, and cook for 1 more minute to crisp the other side." },
+      { "group": "Serve", "text": "Slide onto a plate. Cut into wedges, or snip the green onions with scissors if the pieces are too long to eat whole. Serve with the dipping sauce." }
+    ],
+    "notes": "From Maangchi (YouTube), \"Haemul-pajeon (Green onion pancake with seafood: 해물파전)\": https://www.youtube.com/watch?v=bnYr77vOyM0, full recipe also at https://www.maangchi.com/recipe/haemul-pajeon. Recipe is sized for a 12.5-inch pan — halve it for a smaller pan. Maangchi notes fresh oysters make a great addition if you can get them."
+  },
+  {
     "id": "mamas-salad-pork",
     "title": "Mama's Salad Pork",
     "tags": [],
