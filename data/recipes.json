@@ -343,6 +343,50 @@
     "notes": "From Maangchi (YouTube), \"Haemul-pajeon (Green onion pancake with seafood: 해물파전)\": https://www.youtube.com/watch?v=bnYr77vOyM0, full recipe also at https://www.maangchi.com/recipe/haemul-pajeon. Recipe is sized for a 12.5-inch pan — halve it for a smaller pan. Maangchi notes fresh oysters make a great addition if you can get them."
   },
   {
+    "id": "tongbaechu-kimchi",
+    "title": "Traditional Whole Napa Cabbage Kimchi (Tongbaechu-kimchi)",
+    "tags": ["korean", "kimchi", "fermented", "side-dish", "banchan"],
+    "servings": 10,
+    "servingUnit": "servings",
+    "prepTime": "1 hr active + 2 hr salting",
+    "cookTime": "1-2 days to ferment at room temp, then refrigerate",
+    "images": [
+      "images/tongbaechu-kimchi-1.jpg"
+    ],
+    "ingredients": [
+      { "group": "Cabbage & Brine", "amount": 6, "unit": "lb", "item": "napa cabbage (1 large head, or 2 smaller ones)" },
+      { "group": "Cabbage & Brine", "amount": 0.5, "unit": "cup", "item": "coarse sea salt or kosher salt, for brining" },
+      { "group": "Porridge", "amount": 2, "unit": "cup", "item": "water" },
+      { "group": "Porridge", "amount": 2, "unit": "tbsp", "item": "sweet (glutinous) rice flour" },
+      { "group": "Porridge", "amount": 2, "unit": "tbsp", "item": "brown sugar" },
+      { "group": "Aromatic Puree", "amount": 0.5, "unit": "cup", "item": "garlic, pureed" },
+      { "group": "Aromatic Puree", "amount": 2, "unit": "tsp", "item": "ginger, pureed" },
+      { "group": "Aromatic Puree", "amount": 1, "unit": "cup", "item": "onion, pureed" },
+      { "group": "Kimchi Paste", "amount": 0.5, "unit": "cup", "item": "fish sauce" },
+      { "group": "Kimchi Paste", "amount": 0.5, "unit": "cup", "item": "salted fermented shrimp (saeujeot), with its juice" },
+      { "group": "Kimchi Paste", "amount": 2, "unit": "cup", "item": "gochugaru, Korean hot pepper flakes (1-2.5 cups, to taste)" },
+      { "group": "Filling Vegetables", "amount": 2, "unit": "cup", "item": "Korean radish, cut into thin matchsticks" },
+      { "group": "Filling Vegetables", "amount": "", "unit": "", "item": "scallions, a generous amount, cut into 2-inch pieces" },
+      { "group": "Filling Vegetables", "amount": "", "unit": "", "item": "Korean chives (buchu) or minari (water dropwort), a handful (optional)" },
+      { "group": "Garnish", "amount": "", "unit": "", "item": "toasted sesame seeds" }
+    ],
+    "instructions": [
+      { "group": "Prep the cabbage", "text": "Cut a few inches into the base of the cabbage with a knife, then tear it in half by hand from the slit. If the head is very large, split each half again into quarters." },
+      { "group": "Salt the cabbage", "text": "Briefly soak the cabbage in cold water first — wet leaves absorb salt more evenly. Sprinkle the salt generously between the leaves, using more on the thicker white stem ends." },
+      { "group": "Salt the cabbage", "text": "Let the cabbage sit for about 2 hours total, turning it over every 30 minutes so it salts evenly, until the leaves are wilted and the base is flexible." },
+      { "group": "Rinse", "text": "Wash the salted cabbage in fresh cold water 2-3 times to remove excess salt, then drain well." },
+      { "group": "Make the porridge", "text": "Whisk the water and sweet rice flour together in a small pot and bring to a boil, stirring, until it thickens into a glossy porridge (about a couple of minutes). Stir in the brown sugar until dissolved and shiny, then remove from the heat and let cool completely." },
+      { "group": "Make the kimchi paste", "text": "Blend the garlic, ginger, and onion into a smooth puree." },
+      { "group": "Make the kimchi paste", "text": "Combine the cooled porridge, the garlic-ginger-onion puree, fish sauce, and salted shrimp (with its juice) in a large bowl. Add the gochugaru — start with about 1 cup for a milder kimchi, up to 2.5 cups for a spicier one — and mix into a paste. Taste and adjust." },
+      { "group": "Add the vegetables", "text": "Mix the julienned radish, scallions, and chives or minari (if using) into the paste." },
+      { "group": "Stuff the cabbage", "text": "Wearing food-safe gloves (recommended if this is your first time — the paste is spicy), spread the paste generously between every leaf of the drained cabbage, working from the base toward the tip so each leaf is coated." },
+      { "group": "Pack & ferment", "text": "Pack the stuffed cabbage tightly into a large jar or container, pressing down firmly so no air pockets remain and the cabbage is submerged in its own juices. Sprinkle toasted sesame seeds on top and close the lid." },
+      { "group": "Pack & ferment", "text": "Let it sit at room temperature for 1-2 days. It's ready when it smells sour and the surface starts bubbling — signs that fermentation is active. You can also enjoy it fresh, unfermented, right after mixing." },
+      { "group": "Store", "text": "Once fermented to your taste, move the kimchi to the refrigerator to slow fermentation. Keep it pressed down and submerged in its juices — it will keep improving (and getting more sour) over several weeks." }
+    ],
+    "notes": "From Maangchi (YouTube), \"Traditional kimchi recipe (Tongbaechu-kimchi: 통배추김치)\": https://www.youtube.com/watch?v=eTucCw1w6Ak, full recipe also at https://www.maangchi.com/recipe/tongbaechu-kimchi. Also called baechu-kimchi or pogi-kimchi — this is the classic whole-leaf napa cabbage kimchi most people just call \"kimchi.\" Radish, scallion, and chive/minari amounts are flexible — go by feel."
+  },
+  {
     "id": "mamas-salad-pork",
     "title": "Mama's Salad Pork",
     "tags": [],
