@@ -269,6 +269,7 @@
       { "group": "Dao Kou La Jiao (chili oil topping)", "amount": 1.5, "unit": "tbsp", "item": "Sichuan peppercorns (1-2 tbsp)" },
       { "group": "Doubanjiang paste", "amount": 2.5, "unit": "tbsp", "item": "Sichuan Doubanjiang (fermented broad bean paste)" },
       { "group": "Doubanjiang paste", "amount": 1.5, "unit": "tsp", "item": "fermented black beans (Dou Chi)" },
+      { "group": "Doubanjiang paste", "amount": 1, "unit": "tsp", "item": "prawn paste" },
       { "group": "Doubanjiang paste", "amount": 2, "unit": "tbsp", "item": "Chinese cooking wine" },
       { "group": "Tofu", "amount": 1, "unit": "lb", "item": "soft tofu, cut into bite-sized cubes" },
       { "group": "Tofu", "amount": 1.5, "unit": "liter", "item": "water, for blanching" },
@@ -287,7 +288,7 @@
     ],
     "instructions": [
       { "group": "Make the Dao Kou La Jiao", "text": "Toast the dried chilies and Sichuan peppercorns in a wok over medium-low heat for a couple of minutes. Let cool, then blend until fine. This \"peppers under the blade\" mix is useful for any ma la (spicy and numbing) dish." },
-      { "group": "Make the doubanjiang paste", "text": "Blend the Doubanjiang, fermented black beans, and cooking wine in a blender until it forms a fine paste. Set aside — this grinds down the broad bean pieces so the texture and flavor come out better." },
+      { "group": "Make the doubanjiang paste", "text": "Blend the Doubanjiang, fermented black beans, prawn paste, and cooking wine in a blender until it forms a fine paste. Set aside — this grinds down the broad bean pieces so the texture and flavor come out better." },
       { "group": "Blanch the tofu", "text": "Cut the tofu into bite-sized cubes. Add the salt to the water and bring to a boil. Blanch the tofu for a couple of minutes, then remove and set aside. This reduces the beany taste and helps the tofu hold together while stirring later." },
       { "group": "Cook the meat", "text": "Heat the wok over high heat until smoking hot. Add the vegetable oil and swirl to coat the bottom. Add the ground meat and stir until cooked through." },
       { "group": "Build the base", "text": "Push the meat to the side. Add the doubanjiang paste and stir over low heat for a couple of minutes to activate the umami flavor." },
