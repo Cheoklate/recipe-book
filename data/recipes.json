@@ -254,6 +254,52 @@
     "notes": "From Spice N' Pans (YouTube). Source: https://www.youtube.com/watch?v=kHc_DgWGQDE"
   },
   {
+    "id": "mapo-tofu",
+    "title": "Mapo Tofu",
+    "tags": ["dinner", "chinese", "sichuan", "spicy", "tofu"],
+    "servings": 4,
+    "servingUnit": "servings",
+    "prepTime": "20 min",
+    "cookTime": "20 min",
+    "images": [
+      "images/mapo-tofu-1.jpg"
+    ],
+    "ingredients": [
+      { "group": "Dao Kou La Jiao (chili oil topping)", "amount": 11, "unit": "", "item": "dried red chilies, cut into 1/2-inch pieces (10-12)" },
+      { "group": "Dao Kou La Jiao (chili oil topping)", "amount": 1.5, "unit": "tbsp", "item": "Sichuan peppercorns (1-2 tbsp)" },
+      { "group": "Doubanjiang paste", "amount": 2.5, "unit": "tbsp", "item": "Sichuan Doubanjiang (fermented broad bean paste)" },
+      { "group": "Doubanjiang paste", "amount": 1.5, "unit": "tsp", "item": "fermented black beans (Dou Chi)" },
+      { "group": "Doubanjiang paste", "amount": 2, "unit": "tbsp", "item": "Chinese cooking wine" },
+      { "group": "Tofu", "amount": 1, "unit": "lb", "item": "soft tofu, cut into bite-sized cubes" },
+      { "group": "Tofu", "amount": 1.5, "unit": "liter", "item": "water, for blanching" },
+      { "group": "Tofu", "amount": 0.5, "unit": "tsp", "item": "salt" },
+      { "group": "Main", "amount": 3, "unit": "tbsp", "item": "vegetable oil" },
+      { "group": "Main", "amount": 200, "unit": "g", "item": "ground meat (chicken, pork, or beef)" },
+      { "group": "Main", "amount": 4, "unit": "", "item": "scallions, diced, white and green parts kept separate" },
+      { "group": "Main", "amount": 2, "unit": "tbsp", "item": "garlic, diced" },
+      { "group": "Main", "amount": 1.5, "unit": "tsp", "item": "ginger, minced" },
+      { "group": "Main", "amount": 1, "unit": "tsp", "item": "paprika" },
+      { "group": "Main", "amount": 2, "unit": "tsp", "item": "sugar" },
+      { "group": "Main", "amount": 1.5, "unit": "cup", "item": "beef stock (or water)" },
+      { "group": "Main", "amount": 2, "unit": "tsp", "item": "soy sauce, to taste" },
+      { "group": "Slurry", "amount": 1, "unit": "tbsp", "item": "cornstarch" },
+      { "group": "Slurry", "amount": 0.25, "unit": "cup", "item": "water" }
+    ],
+    "instructions": [
+      { "group": "Make the Dao Kou La Jiao", "text": "Toast the dried chilies and Sichuan peppercorns in a wok over medium-low heat for a couple of minutes. Let cool, then blend until fine. This \"peppers under the blade\" mix is useful for any ma la (spicy and numbing) dish." },
+      { "group": "Make the doubanjiang paste", "text": "Blend the Doubanjiang, fermented black beans, and cooking wine in a blender until it forms a fine paste. Set aside — this grinds down the broad bean pieces so the texture and flavor come out better." },
+      { "group": "Blanch the tofu", "text": "Cut the tofu into bite-sized cubes. Add the salt to the water and bring to a boil. Blanch the tofu for a couple of minutes, then remove and set aside. This reduces the beany taste and helps the tofu hold together while stirring later." },
+      { "group": "Cook the meat", "text": "Heat the wok over high heat until smoking hot. Add the vegetable oil and swirl to coat the bottom. Add the ground meat and stir until cooked through." },
+      { "group": "Build the base", "text": "Push the meat to the side. Add the doubanjiang paste and stir over low heat for a couple of minutes to activate the umami flavor." },
+      { "group": "Build the base", "text": "Add the garlic, ginger, white part of the scallions, paprika, sugar, and half of the Dao Kou La Jiao (reserve the other half for garnish). Stir until well combined and fragrant." },
+      { "group": "Simmer", "text": "Pour in the beef stock and bring to a boil. Taste and adjust with soy sauce — it should be saltier than usual since the tofu doesn't carry much flavor on its own and this is meant to be eaten with rice." },
+      { "group": "Simmer", "text": "Add the tofu and simmer on low heat for 5 minutes." },
+      { "group": "Thicken", "text": "Mix the cornstarch and water into a slurry. Add it to the wok in 3 batches, stirring gently each time to thicken the sauce without breaking the tofu." },
+      { "group": "Garnish & serve", "text": "Sprinkle the reserved Dao Kou La Jiao and the green part of the scallions on top. Serve with white rice." }
+    ],
+    "notes": "From Souped Up Recipes (YouTube), \"BETTER THAN TAKEOUT - Mapo Tofu Recipe\": https://youtu.be/g9DNcb7cs2s. An authentic mapo tofu should hit 8 characteristics: 麻辣鲜香嫩滑翠整 — numbing, spicy, umami, fragrant, tender, smooth, green (scallion/garlic sprout garnish), and whole (no broken tofu)."
+  },
+  {
     "id": "mamas-salad-pork",
     "title": "Mama's Salad Pork",
     "tags": [],
