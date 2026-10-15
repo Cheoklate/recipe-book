@@ -484,9 +484,22 @@
   {
     "id": "mamas-zhap-hueh",
     "title": "Mama's Zhap Hueh",
-    "tags": [],
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
+    "tags": ["dinner", "pork", "chinese", "soup", "cabbage", "family-recipe"],
+    "ingredients": [
+      { "amount": "", "unit": "", "item": "garlic, chopped" },
+      { "amount": "", "unit": "", "item": "pork belly" },
+      { "amount": "", "unit": "", "item": "wong bok (napa cabbage)" },
+      { "amount": "", "unit": "", "item": "round cabbage" },
+      { "amount": "", "unit": "", "item": "pork balls, for flavour (optional)" },
+      { "amount": "", "unit": "", "item": "coriander, to garnish" }
+    ],
+    "instructions": [
+      "Fry the chopped garlic, reserving some of the fried garlic for garnish.",
+      "Sear the pork belly with the garlic.",
+      "Add water to cover and simmer until the pork is tender.",
+      "At the end, add the pork balls (if using) and the cabbage, stems first, and simmer until tender.",
+      "Serve garnished with coriander and the reserved fried garlic."
+    ],
+    "notes": "Mum's Chap Huay recipe, written down 5 November 2022. No amounts given — go by feel."
   }
 ]
