@@ -468,10 +468,24 @@
   {
     "id": "mamas-salad-pork",
     "title": "Mama's Salad Pork",
-    "tags": [],
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
+    "tags": ["pork", "salad", "steamed", "chinese", "family-recipe"],
+    "cookTime": "20-25 min",
+    "ingredients": [
+      { "group": "Pork", "amount": 500, "unit": "g", "item": "pork collar (fatty part) or pork belly" },
+      { "group": "Dressing", "amount": 2, "unit": "tbsp", "item": "taucheo (fermented soybean paste), smashed" },
+      { "group": "Dressing", "amount": 1, "unit": "tsp", "item": "light soy sauce" },
+      { "group": "Dressing", "amount": 0.5, "unit": "tsp", "item": "sugar" },
+      { "group": "Dressing", "amount": 4, "unit": "", "item": "limes, juiced" },
+      { "group": "Dressing", "amount": 1, "unit": "", "item": "large white onion, thinly sliced" },
+      { "group": "Dressing", "amount": 0.5, "unit": "", "item": "cucumber, thinly sliced (optional)" },
+      { "group": "Dressing", "amount": 1, "unit": "", "item": "green chilli, thinly sliced (optional)" },
+      { "group": "Garnish", "amount": "", "unit": "", "item": "coriander" }
+    ],
+    "instructions": [
+      "Steam the pork for 20-25 minutes until tender.",
+      "Once the pork has cooled, slice it thinly, toss with the dressing, and garnish with coriander."
+    ],
+    "notes": "Steamed pork salad with taucheo and onions. Mum's recipe, March 2021."
   },
   {
     "id": "mamas-si-yu-bak",
