@@ -395,6 +395,7 @@
     "servingUnit": "servings",
     "prepTime": "20 min",
     "cookTime": "1 hr",
+    "images": ["images/chicken-parmesan-1.jpg"],
     "ingredients": [
       { "group": "Sauce", "amount": 0.25, "unit": "", "item": "onion, chopped" },
       { "group": "Sauce", "amount": 4, "unit": "cloves", "item": "garlic, minced" },
