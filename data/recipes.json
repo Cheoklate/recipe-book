@@ -466,6 +466,39 @@
     "notes": "From PorPor Helen's mum. Use the same volume of chopped spring onion as pork — this is what adds sweetness to the dish."
   },
   {
+    "id": "salt-scallion-pork-chop",
+    "title": "Salt & Scallion Pork Chop (盐葱猪扒)",
+    "tags": ["dinner", "pork", "chinese", "pan-fried"],
+    "prepTime": "20 min",
+    "ingredients": [
+      { "group": "Pork", "amount": 750, "unit": "g", "item": "pork collar (梅花肉, pork shoulder butt), thinly sliced by the butcher" },
+      { "group": "Marinade", "amount": "", "unit": "", "item": "oyster sauce" },
+      { "group": "Marinade", "amount": "", "unit": "", "item": "light soy sauce" },
+      { "group": "Marinade", "amount": "", "unit": "", "item": "white pepper (black pepper is even better)" },
+      { "group": "Marinade", "amount": "", "unit": "", "item": "water, a splash" },
+      { "group": "Marinade", "amount": "", "unit": "", "item": "sweet potato starch, 2 large handfuls" },
+      { "group": "Salt & scallion seasoning", "amount": "", "unit": "", "item": "garlic, a large handful of cloves, smashed and minced" },
+      { "group": "Salt & scallion seasoning", "amount": "", "unit": "", "item": "scallions, a handful, finely chopped" },
+      { "group": "Salt & scallion seasoning", "amount": 1, "unit": "tsp", "item": "salt (a small spoonful)" },
+      { "group": "Salt & scallion seasoning", "amount": 1, "unit": "tsp", "item": "sugar (a small spoonful)" },
+      { "group": "Salt & scallion seasoning", "amount": 1, "unit": "tsp", "item": "pepper (a small spoonful)" },
+      { "group": "Salt & scallion seasoning", "amount": 1, "unit": "tbsp", "item": "white sesame seeds (a large spoonful)" },
+      { "group": "Salt & scallion seasoning", "amount": "", "unit": "", "item": "sesame oil" },
+      { "group": "To fry", "amount": "", "unit": "", "item": "cooking oil" }
+    ],
+    "instructions": [
+      { "group": "Prep the pork", "text": "Prick holes all over both sides of the pork slices with the back of a knife or a fork. This loosens the fibres and helps the marinade soak in." },
+      { "group": "Marinate", "text": "Add the oyster sauce, light soy sauce, pepper, and a splash of water. Mix well by hand and marinate for 10 minutes." },
+      { "group": "Marinate", "text": "Add 2 large handfuls of sweet potato starch and keep mixing until the pork is coated in a thin batter. Set aside." },
+      { "group": "Make the seasoning", "text": "Put the minced garlic and chopped scallions in a bowl. Add the salt, sugar, pepper, sesame seeds, and sesame oil, and mix thoroughly with chopsticks. Set aside." },
+      { "group": "Pan-fry", "text": "Heat a pan, add cooking oil, and wait until the oil is hot before adding the pork so it doesn't stick." },
+      { "group": "Pan-fry", "text": "Fry over medium-low heat until the bottom sets, then flip. Keep frying slowly, flipping several times, until cooked through and both sides are golden and crispy. Don't use high heat, or it will burn before cooking through." },
+      { "group": "Finish", "text": "Move the pork to a cutting board and cut into small pieces while it's still hot, so the crust stays crisp." },
+      { "group": "Finish", "text": "Return the pork to the pan, add the salt and scallion seasoning, and stir-fry over low heat until fragrant. Serve." }
+    ],
+    "notes": "From See the kitchen every day_Ajian (天天相見廚房_阿見, YouTube): https://www.youtube.com/watch?v=0hDfXBQhiZg. The video gives no exact amounts for the marinade, so season by feel; the spoon sizes for the seasoning are approximate. Savoury rather than sweet, unlike char siu."
+  },
+  {
     "id": "mamas-salad-pork",
     "title": "Mama's Salad Pork",
     "tags": ["pork", "salad", "steamed", "chinese", "family-recipe"],
