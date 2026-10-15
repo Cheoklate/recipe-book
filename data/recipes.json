@@ -442,6 +442,30 @@
     "notes": "From Basics with Babish (YouTube), \"Chicken Parmesan | Basics with Babish\": https://www.youtube.com/watch?v=ZrR0VbqNdW8, full recipe also at https://www.babi.sh/basicsepisodes/chicken-parmesan. Double-dipping the chicken in egg and panko gives a crispier crust. Tools: meat mallet, frying thermometer, wire rack over a rimmed baking sheet."
   },
   {
+    "id": "yoke-chung",
+    "title": "Yoke Chung",
+    "tags": ["dinner", "pork", "chinese", "stir-fry", "family-recipe"],
+    "servings": 5,
+    "servingUnit": "servings",
+    "ingredients": [
+      { "group": "Marinade", "amount": 750, "unit": "g", "item": "minced pork" },
+      { "group": "Marinade", "amount": 1.5, "unit": "tbsp", "item": "Shaoxing wine" },
+      { "group": "Marinade", "amount": 2, "unit": "tsp", "item": "light soy sauce" },
+      { "group": "Marinade", "amount": 2, "unit": "tsp", "item": "dark soy sauce" },
+      { "group": "Marinade", "amount": 1, "unit": "tsp", "item": "sugar" },
+      { "group": "Marinade", "amount": "", "unit": "", "item": "white pepper and salt, to taste" },
+      { "group": "To fry", "amount": 1, "unit": "tbsp", "item": "tapioca flour (add when ready to fry)" },
+      { "group": "To fry", "amount": "", "unit": "", "item": "spring onion, chopped (same volume as the pork)" }
+    ],
+    "instructions": [
+      "Marinate the pork with the Shaoxing wine, light and dark soy sauce, sugar, white pepper, and salt.",
+      "When about to fry, add the tapioca flour and mix well.",
+      "Fry the pork until half cooked.",
+      "Add the spring onion and fry until everything is cooked through."
+    ],
+    "notes": "From PorPor Helen's mum. Use the same volume of chopped spring onion as pork — this is what adds sweetness to the dish."
+  },
+  {
     "id": "mamas-salad-pork",
     "title": "Mama's Salad Pork",
     "tags": [],
